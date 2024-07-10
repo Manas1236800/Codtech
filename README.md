@@ -8,14 +8,19 @@ DURATION : JUNE TO JULY 2024
 
 ID : CT04ML2337
 
-Overview of Credit Card Fraud Detection Project Project Goal . The primary goal of this project is to develop a machine learning model that can accurately detect fraudulent credit card transactions. Given the highly imbalanced nature of the dataset, the project aims to handle data preprocessing, model training, and evaluation to achieve high performance in identifying fraudulent activities.
+# Linear-Regression-Model-for-House-Price-Prediction
 
-Dataset The dataset used for this project is the Credit Card Fraud Detection Dataset from Kaggle. It consists of 284,807 transactions, where only 492 are fraudulent, making it a highly imbalanced dataset. The features include:
+In this tutorial you will learn how to create Machine Learning Linear Regression Model. You will be analyzing a house price predication dataset for finding out price of house on different parameters. You will do Exploratory Data Analysis, split the training and testing data, Model Evaluation and Predictions. 
 
-. Time: Seconds elapsed between this transaction and the first transaction. . V1 to V28: Principal component analysis (PCA) components. . Amount: Transaction amount. Class: Target variable (1 for fraud, 0 for non-fraud). Methodology
+### Problem Statement
+A real state agents want the help to predict the house price for regions in the USA. He gave you the dataset to work on and you decided to use Linear Regressioon Model. Create a model which will help him to estimate of what the house would sell for.
 
-Data Preprocessing Data Cleaning: Handle missing values and remove irrelevant features. Data Normalization: Scale the numerical features to ensure they contribute equally to the model. Handling Imbalanced Data: Implement techniques like oversampling, undersampling, and SMOTE to address class imbalance.
-Exploratory Data Analysis (EDA) Perform EDA to understand data distribution and relationships. Visualize data using histograms, box plots, scatter plots, and correlation matrices to identify patterns and anomalies.
-Feature Engineering Feature Selection: Identify and select the most relevant features based on their importance and correlation with the target variable. Feature Creation: Create new features that might enhance model performance.
-Model Training . Train various machine learning models, such as: . Logistic Regression . Decision Trees . Random Forest . Gradient Boosting . Support Vector Machines (SVM) . Neural Networks . Use techniques like cross-validation to ensure the models generalize well to unseen data.
-Model Evaluation . Evaluate models using metrics including: . Accuracy . Precision . Recall . F1 Score . Area Under the Receiver Operating Characteristic Curve (ROC-AUC# Codtech
+Dataset contains 7 columns and 5000 rows with CSV extension. The data contains the following columns :
+
+- 'Avg. Area Income': Avg. Income of householder of the city house is located in.
+- 'Avg. Area House Age': Avg. Age of Houses in same city.
+- 'Avg. Area Number of Rooms': Avg. Number of Rooms for Houses in same city.
+- 'Avg. Area Number of Bedrooms': Avg. Number of Bedrooms for Houses in same city.
+- 'Area Population': Population of city.
+- 'Price': Price that the house sold at.
+- 'Address': Address of the houses.
